@@ -1,0 +1,20 @@
+Here is a simple C program to calculate the area of a circle:
+
+#include <stdio.h>
+
+int main() {
+    float radius, area;
+    float pi = 3.14;   // value of pi
+
+    // Input from user
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+
+    // Calculate area
+    area = pi * radius * radius;
+
+    // Display result
+    printf("Area of the circle = %.2f\n", area);
+
+    return 0;
+}
