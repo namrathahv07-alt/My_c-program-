@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+int main() {
+   char str[50], rev[50];
+   int i,len;
+   printf ("enter a string ");
+   scanf("%s",str);
+   len=strlen(str);
+   //reverse mannuly
+   for 
+   (i=0;i<len;i++){
+      ( rev[i]=str[len-1-i]);
+       }
+       rev[len]='\0';
+       //campare
+       if (strcmp(str,rev)==0){
+       printf("it is a polindrome");
+       }
+       else {
+       printf ("not a polindrom");
+       }
+       return 0;
+}
+       
