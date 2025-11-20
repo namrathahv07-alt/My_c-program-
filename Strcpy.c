@@ -1,0 +1,10 @@
+//string copy
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char rose[20];
+    strcpy(rose,"rajesh");
+    printf(" %s",rose);
+
+    return 0;
+}
