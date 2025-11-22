@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+union Data {
+    int i;
+    float f;
+    char ch;
+};
+int main() {
+   union Data d;
+   d.i=10;
+    printf("value of i =%d\n",d.i);
+    d.f=20.1;
+    printf("value of f=%f\n",d.f);
+
+    return 0;
+}
